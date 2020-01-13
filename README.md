@@ -104,7 +104,7 @@ If you put the instance your created into a variable, you can access some output
  let scenario = new Scenario(mainContainer, data, options);
 ```
 
-####Methods
+#### Methods
 ##### generateScenario(): 
 Allows you to export an array containing the selected scenario
 
