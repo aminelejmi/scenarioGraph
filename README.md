@@ -7,6 +7,19 @@ You can try it out and explore the options here : [Live demo](https://codesandbo
 ![](preview.png)
 
 ## Installation
+### With NPM
+To add scenarioGraph to your dependencies:
+```shell script
+npm install @amine-lejmi/scenariograph
+```
+- Import the css file in your HTML document:
+```html
+<link rel="stylesheet" href="path-to-node_modules/@amine-lejmi/scenariograph/dist/scenarioGraph.styles.css">
+```
+- Import the js module in your main js file:
+```js
+import Scenario from 'path-to-node_modules/@amine-lejmi/scenariograph/src/scenarioGraph.js';
+```
 ### With CDN
 
 ##### In your main HTML file :

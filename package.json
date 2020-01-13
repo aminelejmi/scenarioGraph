@@ -1,8 +1,12 @@
 {
   "name": "@amine-lejmi/scenariograph",
   "version": "1.0.0",
-  "description": "Simple scenario generator",
+  "description": "Simple scenario generator, allowing the user to graphically generate his choices",
   "main": "src/scenarioGraph.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aminelejmi/scenarioGraph.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
@@ -14,8 +18,8 @@
     "svg",
     "generator"
   ],
-  "author": "Mohamed amine LEJMI",
-  "license": "ISC",
+  "author": "Mohamed amine LEJMI <lejmi.amine@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
